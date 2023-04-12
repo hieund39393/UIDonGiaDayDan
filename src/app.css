@@ -1,0 +1,161 @@
+body {
+    height: 100%;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.edit-icons {
+    padding-left: 5px;
+}
+.delete-icons {
+    padding-left: 10px;
+    color: red;
+}
+
+.add-users-icons {
+    padding-left: 10px;
+}
+
+.ant-modal-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-modal {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    margin: 0 !important;
+}
+
+/* Header*/
+.ant-layout-header {
+    line-height: unset !important;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 24px;
+    background-color: #fff;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 145px;
+}
+
+.top-bar-title {
+    font-size: larger;
+    font-weight: 700;
+    color: darkblue;
+    margin-left: 100px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 5px;
+    font-size: 16px;
+    color: #000;
+}
+
+.user-avatar {
+    background-color: #1890ff;
+    margin-right: 5px;
+}
+
+.ant-dropdown-menu-item:hover {
+    color: #1890ff;
+    cursor: pointer;
+}
+
+/* CSS phần Content */
+.nav-breadcrumb {
+    color: blue;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.table-container {
+    padding: 5px;
+    height: calc(100vh - 130px);
+    overflow: auto;
+}
+.form-filter-table {
+    margin-bottom: 5px;
+}
+
+.filter-table {
+    margin-top: -5px;
+    padding: 5px 10px 10px 10px;
+    background: #fdfdfd;
+    /* background-color: #f2f2f2; */
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border: 1px #dfdddd solid;
+    margin-bottom: 10px;
+    position: sticky;
+    top: -5px;
+    z-index: 3;
+
+    border-radius: 5px;
+    /* margin: auto; */
+}
+
+/* CSS phần Modal Pupop */
+
+.ant-modal-title {
+    text-align: center;
+    font-size: 20px !important;
+    padding-bottom: 10px;
+    color: #1677ff !important;
+}
+
+@media (max-width: 1500px) {
+    .ant-modal-content {
+        margin: auto;
+        width: 75%;
+    }
+    .top-bar-title {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 586px) {
+    .top-bar-title {
+        display: none;
+    }
+}
+
+.tree-container {
+    height: 400px;
+    overflow: auto;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.logo {
+    background: white !important;
+}

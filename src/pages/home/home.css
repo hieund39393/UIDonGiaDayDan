@@ -1,0 +1,18 @@
+/* .home{
+    flex: 4;
+} */
+
+ant-table tr {
+    line-height: 1 !important;
+}
+
+.ant-table th {
+    line-height: 1 !important;
+}
+.ant-table td {
+    padding: 5px 10px !important;
+}
+.ant-table td input {
+    text-align: center;
+    border: unset;
+}
